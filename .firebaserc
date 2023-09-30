@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "gdg-kolachi-app-dev"
-  }
+    "production": "gdg-kolachi-website"
+  },
+  "targets": {},
+  "etags": {}
 }
