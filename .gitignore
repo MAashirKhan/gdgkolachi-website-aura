@@ -5,6 +5,7 @@ tempKey.js
 src/config/
 
 # local env files
+.env
 .env.local
 .env.*.local
 
