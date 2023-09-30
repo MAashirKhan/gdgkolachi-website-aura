@@ -1,3 +1,5 @@
+const TerserPlugin = require("terser-webpack-plugin");
+
 module.exports = {
   productionSourceMap: false,
   pwa: {
@@ -8,5 +10,17 @@ module.exports = {
       swSrc: './src/sw.js',
       swDest: 'service-worker.js',
     },
-  }
+  },
+  configureWebpack: {
+    optimization: {
+      minimize: false,
+      minimizer: [new TerserPlugin({
+        terserOptions: {
+          compress: {
+            drop_console: true,
+          },
+        },
+      })],
+    },
+  },
 }
