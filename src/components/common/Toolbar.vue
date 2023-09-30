@@ -3,22 +3,23 @@
     <v-toolbar-side-icon class="hidden-md-and-up" @click="toggleDrawer" />
 
     <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <router-link
-        :to="{ name: 'home'}"
-        class="google-font"
-        style="text-decoration:none; color: rgba(0,0,0,.87);"
-      >{{ChapterDetails.ChapterName}}</router-link>
+      <router-link :to="{ name: 'home' }" class="google-font" style="text-decoration:none; color: rgba(0,0,0,.87);">
+        <v-layout align-center justify-center class="logo-head d-flex flex-row">
+          <v-img :src="require('@/assets/img/logo.png')" :lazy-src="require('@/assets/img/logo.png')" width="52px"
+            height="30px">
+            <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+              <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+            </v-layout>
+          </v-img>
+          <div>
+            {{ ChapterDetails.ChapterName }}
+          </div>
+        </v-layout>
+      </router-link>
     </v-toolbar-title>
     <v-spacer />
-    <v-btn
-      v-for="(link, i) in links"
-      :key="i"
-      :to="link.to"
-      class="ml-0 google-font hidden-sm-and-down"
-      style="text-transform: capitalize;"
-      flat
-      @click="onClick($event, link)"
-    >{{ link.text }}</v-btn>
+    <v-btn v-for="(link, i) in links" :key="i" :to="link.to" class="ml-0 google-font hidden-sm-and-down"
+      style="text-transform: capitalize;" flat @click="onClick($event, link)">{{ link.text }}</v-btn>
     <!-- <v-btn
       v-if="!user.loggedIn"
       class="ml-0 google-font hidden-sm-and-down"
@@ -32,7 +33,7 @@
 
 <script>
 import ChapterDetails from "@/assets/data/chapterDetails.json";
-import Menu from "../helper/Menu";
+// import Menu from "../helper/Menu";
 // Utilities
 import { mapGetters, mapMutations } from "vuex";
 import firebase from "firebase";
@@ -44,7 +45,6 @@ export default {
       menu: false
     };
   },
-  components: { Menu },
   computed: {
     ...mapGetters(["links", "user"])
   },
@@ -55,41 +55,41 @@ export default {
       if (item.to || !item.href) return;
       this.$vuetify.goTo(item.href);
     },
-    signin() {
-      var provider = new firebase.auth.GoogleAuthProvider();
+    // signin() {
+    //   var provider = new firebase.auth.GoogleAuthProvider();
 
-      firebase
-        .auth()
-        .signInWithPopup(provider)
-        .then(result => {
-          // token needs to be set in localStorage
-          // var token = result.credential.accessToken;
-          let user = result.user;
+    //   firebase
+    //     .auth()
+    //     .signInWithPopup(provider)
+    //     .then(result => {
+    //       // token needs to be set in localStorage
+    //       // var token = result.credential.accessToken;
+    //       // let user = result.user;
 
-          //will see if we need to manually set state. Otherwise main.js file will set it
-          // this.setLoggedIn(true);
-          // this.setUser(user);
-        })
-        .catch(error => {
-          // Handle Errors here.
-          // var errorCode = error.code;
-          // var errorMessage = error.message;
-          // The email of the user's account used.
-          // var email = error.email;
-          // The firebase.auth.AuthCredential type that was used.
-          // var credential = error.credential;
+    //       //will see if we need to manually set state. Otherwise main.js file will set it
+    //       // this.setLoggedIn(true);
+    //       // this.setUser(user);
+    //     })
+    //     .catch(error => {
+    //       // Handle Errors here.
+    //       // var errorCode = error.code;
+    //       // var errorMessage = error.message;
+    //       // The email of the user's account used.
+    //       // var email = error.email;
+    //       // The firebase.auth.AuthCredential type that was used.
+    //       // var credential = error.credential;
 
-          alert(error);
-        });
-    },
+    //       alert(error);
+    //     });
+    // },
     logout() {
       firebase
         .auth()
         .signOut()
-        .then(function() {
+        .then(function () {
           // this.setLoggedIn(false);
         })
-        .catch(function(error) {
+        .catch(function (error) {
           alert(error);
         });
     }
