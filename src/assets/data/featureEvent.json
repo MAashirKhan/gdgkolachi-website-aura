@@ -1,10 +1,10 @@
 {
-    "FeatureEventName":"DevFest'19 Karachi",
-    "EventImage":"devfest2019.jpg",
+    "FeatureEventName":"DevFest Sindh 2023",
+    "EventImage":"devfest2023.png",
     "EventDate":{
-        "Date":"23",
-        "Month":"11",
-        "Year":"2019"
+        "Date":"09",
+        "Month":"12",
+        "Year":"2023"
     },
     "EventTime":{
         "StartTime":"09:00 AM",

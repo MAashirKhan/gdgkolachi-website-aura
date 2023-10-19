@@ -1,9 +1,25 @@
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 
 @font-face {
-    font-family: google-sans;
-    src: url(assets/fonts/GoogleSans-Regular.ttf);
+  font-family: google-sans;
+  src: url(assets/fonts/GoogleSans-Regular.ttf);
 }
-.google-font{
-    font-family: google-sans
-};
+@font-face {
+  font-family: urdu-font;
+  src: url(assets/fonts/NotoNastaliqUrdu-VariableFont_wght.ttf);
+}
+.google-font {
+  font-family: google-sans;
+}
+.urdu-font {
+  font-family: urdu-font;
+}
+
+.v-toolbar {
+  box-shadow: none;
+	border-bottom: 1px solid #dddddd !important;
+}
+
+.text-center {
+  text-align: center;
+}

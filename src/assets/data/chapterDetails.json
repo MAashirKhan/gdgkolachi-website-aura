@@ -2,7 +2,7 @@
         "ChapterName":"GDG Kolachi",
         "ChapterShortDescription":"Google Developers Group Kolachi is an initiative to concentrate the efforts of many developers in and around Karachi to learn, share and get productive using the various Google products.",
         "ChapterLongDec":"Google Developer Group Kolachi is inspired by GTUG/GDG Family . We started our journey in 2016. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Karachi. The technology awareness is main goal for first few years of the group.",
-        "ChapterMeetupLink":"https://www.meetup.com/GDG-Kolachi/",
+        "ChapterMeetupLink":"https://gdg.community.dev/gdg-kolachi/",
         "ChapterEmail":"hello@gdgkolachi.com",
         "website":"https://gdgkolachi.com",
         "GDGProgramWebsite":"https://developers.google.com/programs/community/",
@@ -17,11 +17,6 @@
                 "name" : "Twitter",
                 "link" : "https://twitter.com/gdgkolachi",
                 "icon" : "fab fa-twitter"
-            },
-            {
-                "name" : "Meetup",
-                "link" : "https://www.meetup.com/GDG-Kolachi/",
-                "icon" : "fab fa-meetup"
             },
             {
                 "name" : "Instagram",

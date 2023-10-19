@@ -53,7 +53,7 @@
           <v-divider></v-divider>
           <v-toolbar flat color="white" class="pa-0 mx-0 footer" style="padding: 0 !important;">
             <v-toolbar-title class="google-font pl-0 ml-0 mr-3" style="font-size: 200%;">
-              <v-layout align-center justify-center class="logo-head d-flex flex-row" >
+              <v-layout align-center justify-center class="logo-head d-flex flex-row" style="color: #656d72;">
                   <v-img :src="require('@/assets/img/logo.png')" :lazy-src="require('@/assets/img/logo.png')"
                     width="70px" height="30px">
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>

@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import Home from "./views/Home.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -18,27 +18,39 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
     },
     {
       path: '/about',
       name: 'about',
-      component: () => import('./views/About.vue')
+      component: () => import('./views/About.vue'),
     },
     {
       path: '/team',
       name: 'team',
-      component: () => import('./views/Team.vue')
+      component: () => import('./views/Team.vue'),
     },
     {
-      path: '/events',
       name: 'events',
-      component: () => import('./views/Events.vue')
+      path: '/events',
+      component: () => import('./views/Events/Page.vue'),
+      children: [
+        {
+          path: '/',
+          name: 'event-list',
+          component: () => import('./views/Events/EventsList.vue'),
+        },
+        {
+          path: 'details/:eventId',
+          name: 'event',
+          component: () => import('./views/Events/Event.vue'),
+        },
+      ],
     },
     {
       path: '/contact',
       name: 'contact',
-      component: () => import('./views/Contact.vue')
-    }
-  ]
-})
+      component: () => import('./views/Contact.vue'),
+    },
+  ],
+});

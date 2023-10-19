@@ -10,6 +10,12 @@
 export default {
   created(){
    this.show = true
+  },
+  data() {
+    return {
+      show: false,
+    }
   }
 }
 </script>
+
