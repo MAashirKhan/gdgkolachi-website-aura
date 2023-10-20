@@ -9,6 +9,13 @@
       <div class="header">DevFest Sindh 2023</div>
     </div> -->
 
+    <!--Agenda-->
+    <div>
+      <devfestagenda />
+    </div>
+
+    <!--End of Agenda-->
+
     <div class="registration-form">
       <template v-if="!formSubmittedSuccess">
         <div class="header">Registration Form</div>
@@ -252,6 +259,7 @@
 </template>
 
 <script>
+import devfestagenda from "./devfestagenda.vue";
 import { validationMixin } from "vuelidate";
 import {
   required,
@@ -261,6 +269,9 @@ import {
 } from "vuelidate/lib/validators";
 
 export default {
+  components: {
+    devfestagenda,
+  },
   mixins: [validationMixin],
   validations: {
     firstname: { required, maxLength: maxLength(20) },
