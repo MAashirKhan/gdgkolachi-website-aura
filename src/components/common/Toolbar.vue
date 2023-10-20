@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar app color="white" scroll-off-screen>
+  <v-toolbar app color="white" :scroll-off-screen="!isEventPage">
     <v-container fluid class="py-0">
       <v-layout item-center justify-center row fill-height class="my-0 py-0">
         <v-flex id="toolbar-element" xs12 md10 sm10 lg10 class="py-0 my-0">

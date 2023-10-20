@@ -186,7 +186,7 @@
             <b>"Add to Google Wallet"</b>
             button below.
           </p>
-          <v-btn id="google-wallet-btn" flat>
+          <v-btn id="google-wallet-btn" flat :href="ticketLink" target="_blank">
             <svg
               width="240"
               height="26"
@@ -407,7 +407,7 @@ export default {
         const responseData = await response.json();
 
         this.ticketLink = responseData.data.ticketLink;
-        this.alertMsg = responseData.message;
+        this.alertMsg = "Registration Successful!";
         this.alertState = true;
         this.formSubmittedSuccess = true;
 
