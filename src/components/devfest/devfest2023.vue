@@ -13,7 +13,6 @@
     <div>
       <devfestagenda />
     </div>
-
     <!--End of Agenda-->
 
     <div class="registration-form">
