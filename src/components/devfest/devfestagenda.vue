@@ -127,6 +127,7 @@
             </div>
             <div class="agenda-session-accordion">
               <div class="Session__right_content">
+                <p class="google-font schedule-ribbon mt-0">Venue</p>
                 <div class="agenda_session_session__time">
                   10:00 AM — 05:00 PM PST
                 </div>
@@ -144,76 +145,51 @@
                   </div>
                 </div>
                 <v-divider style="color: #0a0a0a"></v-divider>
-                <p
-                  class="google-font mt-2"
-                  style="
-                    width: 40%;
-                    background-color: #ffcf10;
-                    color: #0e0d0d;
-                    font-weight: 600;
-                    font-size: 18px;
-                    text-align: center;
-                    border: 2px solid #0e0d0d;
-                    border-radius: 20px;
-                  "
-                >
-                  Schedule
-                </p>
-                <div class="agenda-details d-flex">
-                  <div style="width: 50%; background-color: #ea4334">H</div>
-                  <div style="width: 50%">W</div>
+                <p class="google-font schedule-ribbon">Schedule</p>
+                <!--SCHEDULE ITEMS-->
+                <div class="flex-container">
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Keynote</div>
+                    <div class="speaker">Hira Tariq</div>
+                    <div class="agenda_session_session_time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
                 </div>
+                <div class="flex-container mt-4">
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Shayari by Bard</div>
+                    <div class="speaker">Umar Ahmed | Hassam Jawed</div>
+                    <div class="agenda_session_session__time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
+                </div>
+                <!--END OF SCHEDULE ITEMS-->
               </div>
             </div>
           </div>
           <!--End of 1st Content Day 01-->
-
-          <!--2nd Content Day 01-->
-          <div class="agenda-sessioncontent-inner">
-            <div class="agenda-session-details">
-              <div class="agenda-session-title">
-                <div class="track_type">
-                  <span class="track_type__track">ML and Cloud Day</span>
-                </div>
-              </div>
-              <!--end Detail_heading-->
-              <div class="session_contentDescription">
-                <h5 class="google-font">Day Hand's on with Bard AI</h5>
-                <p></p>
-                <p class="google-font">
-                  Join Miro's Developer Relations team and learn how to enhance
-                  your everyday workflows. Miro's Developer Platform can help
-                  you quickly boot up apps that make your life easier. In this
-                  session, you will learn more about the Web SDK and the art of
-                  creating Miro Apps. Whether you're a Miro user or a seasoned
-                  developer, you'll be able to build Miro apps of your own in no
-                  time.
-                </p>
-                <p></p>
-              </div>
-            </div>
-            <div class="agenda-session-accordion">
-              <div class="Session__right_content">
-                <div class="agenda_session_session__time">
-                  10:00 AM — 05:00 PM PST
-                </div>
-                <div class="session__speakers">
-                  <div class="session_speakers__list">
-                    <div class="speaker_profile_image">
-                      <img
-                        src="https://yt3.googleusercontent.com/8i1-Iyp8fJMV89bgXK9241Fy5PLocEbvd2BlzTgBppiG3tqsiTXeDo8UsiUQj3CrtvodGtOpTg=s900-c-k-c0x00ffffff-no-rj"
-                      />
-                    </div>
-                    <div class="speaker-detls">
-                      <h4>National Incubation Center</h4>
-                      <p>Hyderabad<br /></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--End of 2nd Content Day 01-->
         </div>
       </div>
 
@@ -253,6 +229,7 @@
             </div>
             <div class="agenda-session-accordion">
               <div class="Session__right_content">
+                <p class="google-font schedule-ribbon mt-0">Venue</p>
                 <div class="agenda_session_session__time">
                   10:00 AM — 05:00 PM PST
                 </div>
@@ -269,61 +246,80 @@
                     </div>
                   </div>
                 </div>
+                <v-divider style="color: #0a0a0a"></v-divider>
+                <p class="google-font schedule-ribbon">Schedule</p>
+                <!--SCHEDULE ITEMS-->
+                <div
+                  class="flex-container"
+                  style="border-left: 3px solid #ea4334"
+                >
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Keynote</div>
+                    <div class="speaker">Hira Tariq</div>
+                    <div class="agenda_session_session_time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex-container mt-4"
+                  style="border-left: 3px solid #ea4334"
+                >
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Keynote</div>
+                    <div class="speaker">Hira Tariq</div>
+                    <div class="agenda_session_session_time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="flex-container mt-4"
+                  style="border-left: 3px solid #ea4334"
+                >
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Talk on Android</div>
+                    <div class="speaker">Wajahat Karim</div>
+                    <div class="agenda_session_session__time">
+                      11:00 AM — 11:30 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
+                </div>
+                <!--END OF SCHEDULE ITEMS-->
               </div>
             </div>
           </div>
           <!--End of 1st Content Day 01-->
-
-          <!--2nd Content Day 01-->
-          <div class="agenda-sessioncontent-inner">
-            <div class="agenda-session-details">
-              <div class="agenda-session-title">
-                <div class="track_type">
-                  <span
-                    class="track_type__track"
-                    style="background-color: #ea4334"
-                    >Web and Android Day</span
-                  >
-                </div>
-              </div>
-              <!--end Detail_heading-->
-              <div class="session_contentDescription">
-                <h5 class="google-font">Day Hand's on with Bard AI</h5>
-                <p></p>
-                <p class="google-font">
-                  Join Miro's Developer Relations team and learn how to enhance
-                  your everyday workflows. Miro's Developer Platform can help
-                  you quickly boot up apps that make your life easier. In this
-                  session, you will learn more about the Web SDK and the art of
-                  creating Miro Apps. Whether you're a Miro user or a seasoned
-                  developer, you'll be able to build Miro apps of your own in no
-                  time.
-                </p>
-                <p></p>
-              </div>
-            </div>
-            <div class="agenda-session-accordion">
-              <div class="Session__right_content">
-                <div class="agenda_session_session__time">
-                  10:00 AM — 05:00 PM PST
-                </div>
-                <div class="session__speakers">
-                  <div class="session_speakers__list">
-                    <div class="speaker_profile_image">
-                      <img
-                        src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
-                      />
-                    </div>
-                    <div class="speaker-detls">
-                      <h4>10 Pearls Office</h4>
-                      <p>Karachi<br /></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--End of 2nd Content Day 01-->
         </div>
       </div>
 
@@ -363,6 +359,7 @@
             </div>
             <div class="agenda-session-accordion">
               <div class="Session__right_content">
+                <p class="google-font schedule-ribbon mt-0">Venue</p>
                 <div class="agenda_session_session__time">
                   10:00 AM — 05:00 PM PST
                 </div>
@@ -370,7 +367,7 @@
                   <div class="session_speakers__list">
                     <div class="speaker_profile_image">
                       <img
-                        src="https://play-lh.googleusercontent.com/DPJeO5IXVXyB4V6x2NN31mtFYl1bmyZms-UECiglfa33-kQ_o0AJCfAhE-qHKD5LqkQ"
+                        src="https://upload.wikimedia.org/wikipedia/en/1/1e/Institute_of_Business_Administration%2C_Karachi_%28logo%29.png"
                       />
                     </div>
                     <div class="speaker-detls">
@@ -379,57 +376,54 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!--End of 1st Content Day 01-->
+                <v-divider style="color: #0a0a0a"></v-divider>
+                <p class="google-font schedule-ribbon">Schedule</p>
+                <!--SCHEDULE ITEMS-->
+                <div
+                  class="flex-container"
+                  style="border-left: 3px solid #ffcf10"
+                >
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Keynote</div>
+                    <div class="speaker">Hira Tariq</div>
+                    <div class="agenda_session_session_time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
 
-          <!--1st Content Day 01-->
-          <div class="agenda-sessioncontent-inner">
-            <div class="agenda-session-details">
-              <div class="agenda-session-title">
-                <div class="track_type">
-                  <span
-                    class="track_type__track"
-                    style="background-color: #ffcf10; color: #0a0a0a"
-                    >The Grand Show</span
-                  >
-                </div>
-              </div>
-              <!--end Detail_heading-->
-              <div class="session_contentDescription">
-                <h5 class="google-font">Day Hand's on with Bard AI</h5>
-                <p></p>
-                <p class="google-font">
-                  Join Miro's Developer Relations team and learn how to enhance
-                  your everyday workflows. Miro's Developer Platform can help
-                  you quickly boot up apps that make your life easier. In this
-                  session, you will learn more about the Web SDK and the art of
-                  creating Miro Apps. Whether you're a Miro user or a seasoned
-                  developer, you'll be able to build Miro apps of your own in no
-                  time.
-                </p>
-                <p></p>
-              </div>
-            </div>
-            <div class="agenda-session-accordion">
-              <div class="Session__right_content">
-                <div class="agenda_session_session__time">
-                  10:00 AM — 05:00 PM PST
-                </div>
-                <div class="session__speakers">
-                  <div class="session_speakers__list">
-                    <div class="speaker_profile_image">
-                      <img
-                        src="https://play-lh.googleusercontent.com/DPJeO5IXVXyB4V6x2NN31mtFYl1bmyZms-UECiglfa33-kQ_o0AJCfAhE-qHKD5LqkQ"
-                      />
-                    </div>
-                    <div class="speaker-detls">
-                      <h4>IBA City Campus</h4>
-                      <p>Karachi<br /></p>
-                    </div>
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
                   </div>
                 </div>
+                <div
+                  class="flex-container mt-4"
+                  style="border-left: 3px solid #ffcf10"
+                >
+                  <!-- Left Column -->
+                  <div class="left-column">
+                    <div class="topic">Shayari by Bard</div>
+                    <div class="speaker">Umar Ahmed | Hassam Jawed</div>
+                    <div class="agenda_session_session__time">
+                      10:00 AM — 10:20 AM PST
+                    </div>
+                  </div>
+
+                  <!-- Right Column -->
+                  <div class="right-column">
+                    <img
+                      src="https://media.licdn.com/dms/image/C560BAQHnbvmW4GCNAg/company-logo_200_200/0/1570554491270?e=2147483647&v=beta&t=DYXCICo5jWFRVrd9PNTtyoTn2_dfsbpt2d5xg_7m5Mc"
+                      alt="Speaker"
+                      class="speaker-pic"
+                    />
+                  </div>
+                </div>
+                <!--END OF SCHEDULE ITEMS-->
               </div>
             </div>
           </div>
@@ -563,7 +557,8 @@ export default {
 }
 
 .agenda_session_session__time {
-  width: 50%;
+  width: 100%;
+  font-size: 14px;
 }
 
 .session__right_content .session__speakers {
@@ -610,5 +605,167 @@ export default {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
+}
+
+.schedule-ribbon {
+  margin-top: 5px;
+  width: 40%;
+  background-color: #ffcf10;
+  color: #0e0d0d;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #0e0d0d;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 3px solid #4285f4;
+}
+.left-column {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.right-column {
+  flex: 1;
+  text-align: right;
+}
+
+.speaker-pic {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+  border: 2px solid #0e0d0d;
+}
+
+.topic {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.speaker {
+  font-size: 14px;
+  color: #0e0d0d;
+}
+
+/* Add this CSS to your existing styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .agenda-section {
+    padding-top: 15px !important;
+  }
+  .agenda-sessioncontent-inner {
+    flex-direction: column;
+  }
+  .agenda-session-details,
+  .agenda-session-accordion {
+    flex-basis: 100%;
+  }
+  .flex-container {
+    border-left: none;
+  }
+  .left-column,
+  .right-column {
+    flex: 1;
+    margin-left: 10;
+    margin-top: 10px;
+  }
+  .speaker-pic {
+    max-width: 100px;
+  }
+  .track_type__track {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+  .agenda-session-session__time {
+    font-size: 12px;
+  }
+  .schedule-ribbon {
+    font-size: 20px;
+    width: 40%;
+  }
+  .agenda-session-accordion .Session__right_content .session__speakers {
+    grid-template-columns: 1fr;
+  }
+  .session_speakers__list {
+    flex-direction: row;
+    align-items: center;
+  }
+  .flex-container {
+    border-left: 3px solid #4285f4;
+  }
+}
+
+/*For Mobile*/
+@media only screen and (max-width: 600px) {
+  .agenda-container {
+    flex-direction: column;
+  }
+  .agenda-daycontainer {
+    font-size: 24px;
+  }
+  .agenda-sessioncontent-inner {
+    flex-direction: column;
+  }
+  .agenda-section {
+    padding-top: 20px !important;
+  }
+  .agenda-details {
+    margin-top: 10px;
+  }
+  .agenda-schedule {
+    margin: 15px 0;
+  }
+  .agenda-day {
+    font-size: 20px;
+    padding: 15px 0px 6px 17.5px;
+  }
+  .agenda-session-details {
+    flex-basis: 100%;
+    padding-bottom: 0;
+  }
+  .agenda-session-accordion {
+    flex-basis: 100%;
+  }
+  .track_type__track {
+    font-size: 14px;
+    padding: 2px 8px;
+  }
+  .session_contentDescription {
+    margin-bottom: 0;
+  }
+  .session_contentDescription h5 {
+    font-size: 18px;
+  }
+  .session_contentDescription p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .agenda-session-session__time {
+    font-size: 14px;
+  }
+  .schedule-ribbon {
+    font-size: 16px;
+    width: 70%;
+  }
+  .speaker-pic {
+    max-width: 80px;
+  }
+  .session__speakers {
+    grid-template-columns: 1fr;
+  }
+  .flex-container {
+    flex-direction: row;
+  }
+  .left-column,
+  .right-column {
+    flex: 1;
+  }
 }
 </style>
